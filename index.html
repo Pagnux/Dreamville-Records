@@ -11,6 +11,28 @@
   </head>
 <body>
 	
+	<style>
+.button {
+  padding: 15x 25px;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #0000FF;
+  border: none;
+  border-radius: 7px;
+  
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+</style>
 	
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
@@ -109,7 +131,7 @@
 				 <i><img src="platinum.png"/></i>
               <p class="card-text">The Sixth Studio album from Grammy Award winning recording artist J. Cole. It was released on May 14, 2021&nbsp;The album was executive produced by Cole, Ibrahim Hamad, and T-Minus.</p>
 				<h2>₱<strong class="red">940.00</strong></h2>
-              <a href="#" class="btn btn-primary">Add to Cart</a>
+              <button class="button" button onclick="myFunction()">Add to Cart</button>
             </div>
           </div>
         </div>
@@ -123,7 +145,7 @@
               <p class="card-text">KOD is the fifth studio album by American rapper J. Cole. It was released on April 20, 2018 through Dreamville Records, Roc Nation and Interscope Records.</p>
 				<br>
 		<h2>₱<strong class="red">940.00</strong></h2>
-              <a href="#" class="btn btn-primary">Add to Cart</a>
+              <button class="button" button onclick="myFunction()">Add to Cart</button>
             </div>
           </div>
         </div>
@@ -136,7 +158,7 @@
               <p class="card-text">The fourth studio album by American rapper J. Cole. It was released on December 9, 2016, by Dreamville Records, Roc Nation and Interscope Records.</p>
 				<br>
 				<h2>₱<strong class="red">790.00</strong></h2>
-              <a href="#" class="btn btn-primary">Add to Cart</a>
+              <button class="button" button onclick="myFunction()">Add to Cart</button>
             </div>
           </div>
         </div>
@@ -152,7 +174,7 @@
 				<i><img src="platinum.png"/></i>
               <p class="card-text">The third studio album by American rapper J. Cole. It was released on December 9, 2014, by ByStorm Entertainment, Columbia Records, Dreamville Records and Roc Nation.</p>
 				<h2>₱<strong class="red">740.00</strong></h2>
-              <a href="#" class="btn btn-primary">Add to Cart</a>
+              <button class="button" button onclick="myFunction()">Add to Cart</button>
             </div>
           </div>
         </div>
@@ -165,7 +187,7 @@
 				<i><img src="platinum.png"/></i>
               <p class="card-text">The second studio album by American rapper J. Cole. It was released on June 18, 2013, by ByStorm Entertainment, Columbia Records, Dreamville Records and Roc Nation.</p>
 				<h2>₱<strong class="red">640.00</strong></h2>
-              <a href="#" class="btn btn-primary">Add to Cart</a>
+              <button class="button" button onclick="myFunction()">Add to Cart</button>
             </div>
           </div>
         </div>
@@ -180,7 +202,7 @@
 			<h2>₱<strong class="red">690.00</strong></h2>
 				
 
-              <a href="#" class="btn btn-primary">Add to Cart</a>
+             <button class="button" button onclick="myFunction()">Add to Cart</button>
             </div>
           </div>
         </div>
@@ -345,6 +367,13 @@
         </div>
       </div>
     </footer>
+
+<script>
+function myFunction() {
+  alert("Coming Soon Dreamville!");
+}
+</script>
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery-3.4.1.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
